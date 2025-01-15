@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @omeraydmr
 - 👀 I’m interested in programming lifecycle.
-- 🌱 I’m currently learning Blender.
+- 🌱 I’m currently learning SAP Basis.
 - 📫 How to reach me : omer.aydemir078@gmail.com
 
 <!---
