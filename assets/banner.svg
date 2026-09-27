@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#16233B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+
+  <!-- node graph motif: retrieval → agent → answer -->
+  <g stroke="#38BDF8" stroke-opacity="0.35" stroke-width="2" fill="none">
+    <path d="M820 90 C 880 90, 900 150, 960 150"/>
+    <path d="M820 210 C 880 210, 900 150, 960 150"/>
+    <path d="M960 150 L 1080 150"/>
+    <path d="M1080 150 C 1110 150, 1110 90, 1140 90"/>
+  </g>
+  <g>
+    <circle cx="820" cy="90" r="10" fill="#0B1220" stroke="#38BDF8" stroke-width="2.5"/>
+    <circle cx="820" cy="210" r="10" fill="#0B1220" stroke="#38BDF8" stroke-width="2.5"/>
+    <circle cx="960" cy="150" r="16" fill="#0B1220" stroke="#A78BFA" stroke-width="3"/>
+    <circle cx="960" cy="150" r="6" fill="#A78BFA"/>
+    <circle cx="1080" cy="150" r="10" fill="#0B1220" stroke="#38BDF8" stroke-width="2.5"/>
+    <circle cx="1140" cy="90" r="8" fill="#38BDF8"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#94A3B8">
+    <text x="780" y="66">retrieve</text>
+    <text x="780" y="240">tools</text>
+    <text x="930" y="190">agent</text>
+    <text x="1050" y="186">answer</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="118" font-size="54" font-weight="700" fill="#F8FAFC" letter-spacing="-1">Ömer Aydemir</text>
+    <rect x="66" y="138" width="120" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="186" font-size="24" font-weight="600" fill="#E2E8F0">Machine Learning Engineer · LLM / RAG Systems</text>
+    <text x="64" y="224" font-size="18" fill="#94A3B8">Garanti BBVA Teknoloji · ex Mercedes-Benz · Indie iOS developer · Istanbul</text>
+  </g>
+</svg>
